@@ -530,18 +530,21 @@ registers:
       level: 2
       address: 5085
       datatype: "S32"
+      smart_meter: True
       unit: "W"
       models: ["SG5KTL-MT","SG6KTL-MT","SG8KTL-M","SG10KTL-M","SG10KTL-MT","SG12KTL-M","SG15KTL-M","SG17KTL-M","SG20KTL-M"]
     - name: "meter_b_phase_power"
       level: 2
       address: 5087
       datatype: "S32"
+      smart_meter: True
       unit: "W"
       models: ["SG5KTL-MT","SG6KTL-MT","SG8KTL-M","SG10KTL-M","SG10KTL-MT","SG12KTL-M","SG15KTL-M","SG17KTL-M","SG20KTL-M"]
     - name: "meter_c_phase_power"
       level: 2
       address: 5089
       datatype: "S32"
+      smart_meter: True
       unit: "W"
       models: ["SG5KTL-MT","SG6KTL-MT","SG8KTL-M","SG10KTL-M","SG10KTL-MT","SG12KTL-M","SG15KTL-M","SG17KTL-M","SG20KTL-M"]
     - name: "load_power"
@@ -555,6 +558,7 @@ registers:
       level: 1
       address: 5093
       datatype: "U32"
+      smart_meter: True
       accuracy: 0.1
       unit: "kWh"
       models: ["SG5KTL-MT","SG6KTL-MT","SG8KTL-M","SG10KTL-M","SG10KTL-MT","SG12KTL-M","SG15KTL-M","SG17KTL-M","SG20KTL-M","SG3K-D","SG5K-D","SG8K-D"]
@@ -562,6 +566,7 @@ registers:
       level: 1
       address: 5095
       datatype: "U32"
+      smart_meter: True
       accuracy: 0.1
       unit: "kWh"
       models: ["SG5KTL-MT","SG6KTL-MT","SG8KTL-M","SG10KTL-M","SG10KTL-MT","SG12KTL-M","SG15KTL-M","SG17KTL-M","SG20KTL-M","SG3K-D","SG5K-D","SG8K-D"]
@@ -569,6 +574,7 @@ registers:
       level: 1
       address: 5097
       datatype: "U32"
+      smart_meter: True
       accuracy: 0.1
       unit: "kWh"
       models: ["SG5KTL-MT","SG6KTL-MT","SG8KTL-M","SG10KTL-M","SG10KTL-MT","SG12KTL-M","SG15KTL-M","SG17KTL-M","SG20KTL-M","SG3K-D","SG5K-D","SG8K-D"]
@@ -576,6 +582,7 @@ registers:
       level: 1
       address: 5099
       datatype: "U32"
+      smart_meter: True
       accuracy: 0.1
       unit: "kWh"
       models: ["SG5KTL-MT","SG6KTL-MT","SG8KTL-M","SG10KTL-M","SG10KTL-MT","SG12KTL-M","SG15KTL-M","SG17KTL-M","SG20KTL-M","SG3K-D","SG5K-D","SG8K-D"]
